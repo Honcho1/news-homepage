@@ -1,0 +1,82 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap");
+
+/* These are general styling */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* This is the styling for the header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 30px;
+}
+
+/* This is the styling for the main section */
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  display: flex;
+}
+
+.main-heading {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.main-para {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(236, 13%, 42%);
+}
+
+.news {
+  width: 27%;
+  height: 500px;
+  background-color: hsl(240, 100%, 5%);
+}
+
+.web-3-image {
+  width: 100%;
+}
