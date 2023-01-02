@@ -47,36 +47,90 @@ p {
 .main {
   display: flex;
   justify-content: space-between;
+  width: 1065px;
+  height: 500px;
   padding: 0 100px;
 }
 
 .container {
-  width: 70%;
+  width: 750px;
+  height: 500px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
+.main-img {
+  width: 750px;
+  height: 310px;
+}
 .main-text {
+  width: 750px;
+  height: 170px;
   display: flex;
+  justify-content: space-between;
+}
+
+.main-text-header {
+  width: 280px;
+  height: 170px;
 }
 
 .main-heading {
-  font-size: 24px;
+  font-size: 46px;
   font-weight: 800;
 }
 
 .main-para {
   font-size: 15px;
   font-weight: 400;
+  line-height: 1.5rem;
   color: hsl(236, 13%, 42%);
 }
 
+.main-text-paragraph {
+  width: 350px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn {
+  border: 0;
+  color: hsl(36, 100%, 99%);
+  background-color: hsl(5, 85%, 63%);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  padding: 12px 24px;
+  text-transform: uppercase;
+}
+
 .news {
-  width: 27%;
-  height: 500px;
+  width: 257px;
+  height: 450px;
   background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 25px 15px;
 }
 
 .web-3-image {
   width: 100%;
+}
+
+/* This is the styling for the news part of the main section */
+.news-top-heading {
+  color: hsl(35, 77%, 62%);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.news-paragraph {
+  font-size: 15px;
+  font-weight: 300;
 }
